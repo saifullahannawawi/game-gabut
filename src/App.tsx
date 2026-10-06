@@ -13,13 +13,13 @@ export default function App() {
       <aside className="w-full max-w-[480px] lg:max-w-xs space-y-4">
         <div>
           <h1 className="text-3xl font-extrabold">
-            <span className="text-sky-400">Dodge</span> <span className="text-yellow-300">&amp; Collect</span>
+            <span className="text-sky-400">GAME</span> <span className="text-yellow-300">IPOOOOEL</span>
           </h1>
-          <p className="text-slate-400 text-sm mt-1">Game arcade survival dengan Phaser.js</p>
+          <p className="text-slate-400 text-sm mt-1">Sodara-Sodara, rupiah......</p>
         </div>
 
         <div className="rounded-xl bg-white/5 border border-white/10 p-4">
-          <h2 className="font-bold text-sky-300 mb-2">🎮 Kontrol</h2>
+          <h2 className="font-bold text-sky-300 mb-2">🎮 Kontol</h2>
           <ul className="text-sm space-y-1 text-slate-300">
             <li><kbd className="px-1.5 py-0.5 rounded bg-slate-700">←</kbd> <kbd className="px-1.5 py-0.5 rounded bg-slate-700">→</kbd> atau <kbd className="px-1.5 py-0.5 rounded bg-slate-700">A</kbd> <kbd className="px-1.5 py-0.5 rounded bg-slate-700">D</kbd> — bergerak</li>
             <li>🖱️ Mouse / sentuh — ikuti pointer</li>
@@ -28,13 +28,13 @@ export default function App() {
         </div>
 
         <div className="rounded-xl bg-white/5 border border-white/10 p-4">
-          <h2 className="font-bold text-yellow-300 mb-2">📈 Aturan</h2>
+          <h2 className="font-bold text-yellow-300 mb-2">📈 Aturan e</h2>
           <ul className="text-sm space-y-1 text-slate-300 list-disc list-inside">
+            <li>JANGAN TERIAK HIDUP JOKOWIIII</li>
             <li>Kumpulkan ⭐ (+10) dan 💎 (+25)</li>
             <li>Hindari batu &amp; 💣 — kehilangan 1 nyawa</li>
             <li>❤️ menambah nyawa (maks 5)</li>
             <li>Level naik setiap 10 detik: objek makin cepat &amp; banyak</li>
-            <li>High score tersimpan di localStorage</li>
           </ul>
         </div>
       </aside>

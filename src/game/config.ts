@@ -1,6 +1,6 @@
 export const GAME_WIDTH = 480;
 export const GAME_HEIGHT = 720;
-export const HS_KEY = 'dodge-collect-highscore';
+export const HS_KEY = 'GAME_IPOOOEL';
 
 export function getHighScore(): number {
   try {

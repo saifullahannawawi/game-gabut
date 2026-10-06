@@ -14,11 +14,11 @@ export class MenuScene extends Phaser.Scene {
     const cx = GAME_WIDTH / 2;
 
     this.add
-      .text(cx, 130, 'DODGE', { fontFamily: FONT, fontSize: '64px', color: '#38bdf8', fontStyle: 'bold' })
+      .text(cx, 130, 'GAME', { fontFamily: FONT, fontSize: '64px', color: '#38bdf8', fontStyle: 'bold' })
       .setOrigin(0.5)
       .setStroke('#0f172a', 8);
     this.add
-      .text(cx, 195, '& COLLECT', { fontFamily: FONT, fontSize: '44px', color: '#fde047', fontStyle: 'bold' })
+      .text(cx, 195, 'IPOOOOEL', { fontFamily: FONT, fontSize: '44px', color: '#fde047', fontStyle: 'bold' })
       .setOrigin(0.5)
       .setStroke('#0f172a', 8);
 
@@ -29,7 +29,7 @@ export class MenuScene extends Phaser.Scene {
       ['star', 'Bintang  +10'],
       ['gem', 'Permata  +25'],
       ['heart', 'Hati  +1 nyawa'],
-      ['rock', 'Batu  -1 nyawa'],
+      ['rock', 'watu  -1 nyawa'],
       ['bomb', 'Bom  -1 nyawa'],
     ];
     legend.forEach(([key, label], i) => {
@@ -43,7 +43,7 @@ export class MenuScene extends Phaser.Scene {
       .setOrigin(0.5);
 
     const start = this.add
-      .text(cx, 655, '▶  Tekan SPASI / Klik untuk Main', { fontFamily: FONT, fontSize: '22px', color: '#ffffff', fontStyle: 'bold' })
+      .text(cx, 655, '▶  PENCETEN BOLOOO / SPASI', { fontFamily: FONT, fontSize: '22px', color: '#ffffff', fontStyle: 'bold' })
       .setOrigin(0.5);
     this.tweens.add({ targets: start, alpha: 0.3, duration: 600, yoyo: true, repeat: -1 });
 
